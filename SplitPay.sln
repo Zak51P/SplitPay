@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{26EFF6C4-0F29-48A0-8CE5-5C8EB23ADD59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitPay.Domain", "src\SplitPay.Domain\SplitPay.Domain.csproj", "{7BF977B2-B488-4C92-A879-5E0FB26D7F99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitPay.Api", "src\SplitPay.Api\SplitPay.Api.csproj", "{E470AF8C-1C08-43CB-89C2-8C2C8C10F847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitPay.Application", "src\SplitPay.Application\SplitPay.Application.csproj", "{E34E7EAA-5B70-4B19-B1EA-9609CB1622B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitPay.Infrastructure", "src\SplitPay.Infrastructure\SplitPay.Infrastructure.csproj", "{48262D8B-C9C8-45FE-AE5E-565D4F393AA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DE233C90-EBA1-4D48-B781-D9C87888181F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitPay.Tests", "tests\SplitPay.Tests\SplitPay.Tests.csproj", "{184D1CC6-4448-4488-9379-E4C36C68C664}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BF977B2-B488-4C92-A879-5E0FB26D7F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF977B2-B488-4C92-A879-5E0FB26D7F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF977B2-B488-4C92-A879-5E0FB26D7F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF977B2-B488-4C92-A879-5E0FB26D7F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E470AF8C-1C08-43CB-89C2-8C2C8C10F847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E470AF8C-1C08-43CB-89C2-8C2C8C10F847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E470AF8C-1C08-43CB-89C2-8C2C8C10F847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E470AF8C-1C08-43CB-89C2-8C2C8C10F847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E34E7EAA-5B70-4B19-B1EA-9609CB1622B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34E7EAA-5B70-4B19-B1EA-9609CB1622B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34E7EAA-5B70-4B19-B1EA-9609CB1622B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34E7EAA-5B70-4B19-B1EA-9609CB1622B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48262D8B-C9C8-45FE-AE5E-565D4F393AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48262D8B-C9C8-45FE-AE5E-565D4F393AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48262D8B-C9C8-45FE-AE5E-565D4F393AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48262D8B-C9C8-45FE-AE5E-565D4F393AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184D1CC6-4448-4488-9379-E4C36C68C664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184D1CC6-4448-4488-9379-E4C36C68C664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184D1CC6-4448-4488-9379-E4C36C68C664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184D1CC6-4448-4488-9379-E4C36C68C664}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BF977B2-B488-4C92-A879-5E0FB26D7F99} = {26EFF6C4-0F29-48A0-8CE5-5C8EB23ADD59}
+		{E470AF8C-1C08-43CB-89C2-8C2C8C10F847} = {26EFF6C4-0F29-48A0-8CE5-5C8EB23ADD59}
+		{E34E7EAA-5B70-4B19-B1EA-9609CB1622B8} = {26EFF6C4-0F29-48A0-8CE5-5C8EB23ADD59}
+		{48262D8B-C9C8-45FE-AE5E-565D4F393AA9} = {26EFF6C4-0F29-48A0-8CE5-5C8EB23ADD59}
+		{184D1CC6-4448-4488-9379-E4C36C68C664} = {DE233C90-EBA1-4D48-B781-D9C87888181F}
+	EndGlobalSection
+EndGlobal
