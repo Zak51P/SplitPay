@@ -26,6 +26,7 @@ public sealed class ExpensesRepository : IExpensesRepository
     public async Task<IReadOnlyList<Expense>> GetByGroupIdAsync(Guid groupId, CancellationToken cancellationToken = default)
     {
         var list = await _context.Expenses
+            .AsNoTracking()
             .Include(e => e.Parts)
             .ThenInclude(p => p.Share)
             .Where(e => e.GroupId == groupId)

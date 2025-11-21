@@ -23,10 +23,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\SplitPay.Application\SplitPay.Application.csproj" />
+    <ProjectReference Include="..\..\src\SplitPay.Infrastructure\SplitPay.Infrastructure.csproj" />
     <ProjectReference Include="..\..\src\SplitPay.Domain\SplitPay.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" />
     <Using Include="Xunit" />
   </ItemGroup>
 
